@@ -5,7 +5,7 @@ import { OrbitControls } from '@react-three/drei'
 import { DoubleSide, MOUSE, Object3D, OrthographicCamera, PCFShadowMap, Vector3 } from 'three'
 import { createFootprints, createRibbons, createRoadNetwork } from './lib/geometry'
 import { viewFrame } from './lib/scene-data'
-import { fitCameraToBounds, shouldApplyViewAction, projectLandmarkPositions, panOrthographicCamera, constrainCameraTargetToRoute, overviewZoomLimits, distanceToRoute } from './lib/scene-camera'
+import { fitCameraToBounds, shouldApplyViewAction, projectLandmarkPositions, panOrthographicCamera, constrainCameraTargetToRoute, overviewZoomLimits, distanceToRoute, clearAtlasNearPlane } from './lib/scene-camera'
 import type { Landmark, SceneData } from './lib/scene-data'
 import BackdropGround from './BackdropGround'
 import { useBackdropTexture } from './useBackdropTexture'
@@ -62,6 +62,7 @@ function Navigation({ data, selected, viewAction, navigation, interactive = true
   const canvas = useThree(state => state.gl.domElement)
   const frame = useMemo(() => viewFrame(data.bounds), [data])
   const beamSource = useMemo(() => data.spotlight ? stageBeamSource(data.spotlight) : undefined, [data])
+  const atlasElevation = useMemo(() => data.buildings.reduce((highest, building) => Math.max(highest, building.height ?? 0), 65), [data])
   const zoomLimits = useMemo(() => overviewZoomLimits(data.bounds, size), [data, size])
   const routePaths = useMemo(() => data.route.segments.map(segment => segment.coordinates), [data])
   const corridor = typeof data.meta.navigationCorridorMeters === 'number' && Number.isFinite(data.meta.navigationCorridorMeters) && data.meta.navigationCorridorMeters > 0 ? data.meta.navigationCorridorMeters : 450
@@ -186,6 +187,7 @@ function Navigation({ data, selected, viewAction, navigation, interactive = true
     orbit.minZoom = safeMin
     const zoom = Math.max(safeMin, Math.min(zoomLimits.max, camera.zoom))
     if (Math.abs(zoom - camera.zoom) > 0.000001) { camera.zoom = zoom; camera.updateProjectionMatrix(); changed = true }
+    if (clearAtlasNearPlane(camera, atlasElevation)) changed = true
     canvas.setAttribute('data-map-pose', JSON.stringify({ position: camera.position.toArray(), target: orbit.target.toArray(), zoom: camera.zoom }))
     canvas.setAttribute('data-camera-polar-angle', orbit.getPolarAngle().toFixed(6))
     canvas.setAttribute('data-camera-safe-min-zoom', safeMin.toFixed(6))

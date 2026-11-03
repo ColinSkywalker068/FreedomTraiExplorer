@@ -331,3 +331,24 @@ test('playable orbit keeps backdrop edges and beam source outside the viewport',
   }
   assert.ok(orbitTiltLimits.max - orbitTiltLimits.min >= Math.PI / 9 - 1e-6)
 })
+
+test('zooming out after a close landmark focus keeps foreground ground inside the near plane', async () => {
+  const { clearAtlasNearPlane } = await import('../src/lib/scene-camera.ts')
+  const { OrthographicCamera, Vector3 } = await import('three')
+  const camera = new OrthographicCamera(-1009, 1009, 521, -521, 1, 30000)
+  camera.position.set(72, 117, 40.5)
+  camera.lookAt(0, 0, 0)
+  camera.zoom = 0.5
+  camera.updateProjectionMatrix()
+  camera.updateMatrixWorld(true)
+  const foreground = new Vector3(0, -1, 0).unproject(camera)
+  const direction = camera.getWorldDirection(new Vector3())
+  foreground.addScaledVector(direction, -foreground.y / direction.y)
+  const before = foreground.clone().project(camera)
+  assert.ok(before.z < -1, 'reproduces the clipped ground')
+  assert.equal(clearAtlasNearPlane(camera, 250), true)
+  const after = foreground.clone().project(camera)
+  assert.ok(after.z > -1 && after.z < 1)
+  assert.ok(Math.abs(after.y - before.y) < 1e-9, 'preserves framing')
+  assert.equal(clearAtlasNearPlane(camera, 250), false)
+})

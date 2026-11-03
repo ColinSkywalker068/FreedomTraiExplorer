@@ -131,3 +131,22 @@ export function safePerspectiveZoom(camera: OrthographicCamera, bounds?: number[
   }
   return minimum
 }
+
+/** Move back along the viewing axis when the widened view reaches the near plane.
+ * Orthographic framing is unchanged by this translation. */
+export function clearAtlasNearPlane(camera: OrthographicCamera, elevation: number): boolean {
+  camera.updateMatrixWorld(true)
+  const direction = camera.getWorldDirection(new Vector3())
+  if (direction.y >= -0.01) return false
+  const up = new Vector3().setFromMatrixColumn(camera.matrixWorld, 1)
+  const right = new Vector3().setFromMatrixColumn(camera.matrixWorld, 0)
+  const lowestRay = camera.position.y
+    + Math.min(camera.bottom * up.y, camera.top * up.y) / camera.zoom
+    + Math.min(camera.left * right.y, camera.right * right.y) / camera.zoom
+  const clearance = (lowestRay - elevation) / -direction.y
+  const retreat = camera.near + 1 - clearance
+  if (retreat <= 1e-6) return false
+  camera.position.addScaledVector(direction, -retreat)
+  camera.updateMatrixWorld(true)
+  return true
+}
