@@ -1,0 +1,20 @@
+Old State House exploration runtime assets
+
+Old State House Boston by MakeALot
+Source: https://pinshape.com/items/5151-old-state-house-boston
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Modifications: STL duplicate/degenerate cleanup and normal recalculation; ground-centering and footprint scale calibration; PBR brick/paint/slate/glazing materials, an original procedural brick texture, recessed window backing; GLB export and optimization. Source architectural details were retained with documented limitations.
+
+Selected streetscape props by Quaternius
+Source: https://quaternius.itch.io/downtown-city-megakit
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Modifications: only Bollard and Planter selected; centered/grounded, simplified runtime PBR materials and 512px base-color textures; GLB export and optimization. No full asset library is distributed here.
+
+See docs/TASK2_1_ASSETS.md in the source project for dimensions, orientation, conversion evidence, and approximations.
+
+Runtime tourist and guide base characters and clips by Quaternius, CC0 1.0.
+https://quaternius.com/packs/universalbasecharacters.html
+https://quaternius.itch.io/universal-animation-library
+Modifications: custom fitted clothing, rig retargeting, and wave, nod and point gestures.

@@ -1,0 +1,100 @@
+.osh-dialogue-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  align-items: end;
+  justify-items: end;
+  padding: clamp(.6rem, 3vw, 2rem);
+  background: linear-gradient(115deg, transparent 48%, #07141660);
+}
+
+.osh-dialogue {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 25rem);
+  max-height: min(70dvh, 39rem);
+  padding: 1rem;
+  gap: .65rem;
+  overflow: auto;
+  border: 1px solid #c2d5b744;
+  border-radius: .85rem;
+  background: #102322f5;
+  color: #f1ead7;
+  box-shadow: 0 10px 36px #09131066;
+}
+
+.osh-dialogue header, .osh-dialogue footer, .osh-dialogue-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.osh-dialogue h2 { margin: .15rem 0 0; font-size: 1.4rem; }
+.osh-dialogue button {
+  padding: .42rem .62rem;
+  border: 1px solid #c2d5b746;
+  border-radius: .38rem;
+  color: inherit;
+  background: #2a4340;
+  font: inherit;
+  cursor: pointer;
+}
+.osh-dialogue button:hover:not(:disabled) { background: #3a5350; }
+.osh-dialogue button:disabled { opacity: .55; cursor: default; }
+.osh-dialogue header button { font-size: 1.3rem; line-height: 1; }
+.osh-dialogue-status, .osh-dialogue footer { color: #c3d1c6; font-size: .7rem; }
+.osh-dialogue-status > span { color: #e2c995; font-weight: 700; letter-spacing: .05em; }
+.osh-dialogue-history {
+  min-height: 5rem;
+  overflow: auto;
+  overscroll-behavior: contain;
+  display: flex;
+  flex-direction: column;
+  gap: .42rem;
+  padding-right: .25rem;
+  font-size: .84rem;
+  line-height: 1.55;
+}
+.osh-dialogue-history p { margin: 0; overflow-wrap: anywhere; }
+.osh-npc-turn, .osh-player-turn { border-radius: .46rem; padding: .45rem .6rem; background: #243735; }
+.osh-player-turn { background: #37514a; align-self: flex-end; max-width: 90%; }
+.osh-npc-turn a { display: block; color: #ecd39f; margin-top: .23rem; font-size: .71rem; overflow-wrap: anywhere; }
+.osh-thinking, .osh-chat-error { color: #e9cc9e; font-size: .76rem; margin: 0; }
+.osh-suggestions, .osh-message { display: flex; flex-wrap: wrap; gap: .35rem; }
+.osh-suggestions { font-size: .72rem; }
+.osh-message { flex-wrap: nowrap; font-size: .86rem; }
+.osh-message input {
+  min-width: 0;
+  flex: 1;
+  padding: .55rem .65rem;
+  border: 1px solid #c2d5b746;
+  border-radius: .38rem;
+  color: inherit;
+  background: #0b1919;
+  font: inherit;
+}
+
+.osh-tourist-greeting {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  width: min(23rem, calc(100% - 2rem));
+  transform: translateX(-50%);
+  margin: 0;
+  padding: .6rem .8rem;
+  border: 1px solid #c2d5b746;
+  border-radius: .48rem;
+  color: #f1ead7;
+  background: #102322ed;
+  text-align: center;
+  font-size: .84rem;
+  pointer-events: none;
+}
+.osh-tourist-greeting strong { color: #e2c995; }
+
+@media (max-width: 620px) {
+  .osh-dialogue-scrim { justify-items: center; }
+  .osh-dialogue { max-height: 62dvh; }
+}

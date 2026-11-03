@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: boston-signals-api
+    runtime: python
+    plan: free
+    autoDeployTrigger: off
+    buildCommand: python -m pip install -r backend/requirements.txt
+    startCommand: python -m uvicorn backend.npc_api:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.4
+      - key: NPC_PROVIDER
+        value: groq
+      - key: GROQ_API_KEY
+        sync: false
+      - key: NPC_WEB_ORIGINS
+        sync: false
+  - type: web
+    name: boston-signals
+    runtime: static
+    autoDeployTrigger: off
+    buildCommand: cd frontend && npm ci && npm run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      - key: VITE_NPC_API_URL
+        fromService:
+          type: web
+          name: boston-signals-api
+          envVarKey: RENDER_EXTERNAL_URL

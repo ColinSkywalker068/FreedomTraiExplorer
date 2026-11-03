@@ -1,0 +1,16 @@
+.history-panel{position:relative;width:min(46rem,94vw);max-height:88vh;overflow:auto;padding:clamp(1.25rem,4vw,3rem);background:#233630;color:#e6e6cf;border:1px solid #66766b;box-shadow:0 20px 70px #111a;line-height:1.6}
+.history-panel h2{font:normal clamp(2rem,6vw,3.5rem) Georgia,serif;line-height:1.07;margin:.5rem 0 1rem}
+.history-panel h3{font:normal 1.45rem Georgia,serif;margin:1.2rem 0 .4rem}
+.history-panel a{color:#edc999}.history-panel small{display:block;color:#bac5b0}
+.history-panel button:not(.osh-close-info),.history-action{background:#324941;color:#e7e5ce;border:1px solid #788576;padding:.5rem .75rem;cursor:pointer}
+.history-panel button:disabled{opacity:.55;cursor:default}.history-panel details,.history-panel article{padding:.55rem;border-top:1px solid #78857666}
+.history-panel summary{cursor:pointer}.history-panel form,.history-list{display:grid;gap:.5rem;margin:.8rem 0}
+.history-panel form{grid-template-columns:minmax(0,1fr) auto}.history-panel input:not([type=checkbox]),.history-panel textarea{background:#182823;color:#eeefdd;border:1px solid #829084;padding:.55rem}
+.history-thread{max-height:12rem;overflow:auto}.history-thread>div{border-top:1px solid #78857666;padding:.45rem}.history-thread p{margin:.25rem 0}
+.history-image{overflow:auto;max-height:44vh;background:#172420}.history-image img{display:block;max-width:none}.history-choice{display:block;margin:.5rem 0}.history-choice textarea{display:block;width:100%;min-height:4rem}
+.history-actions{position:absolute;z-index:2;right:clamp(1rem,4vw,3rem);bottom:clamp(1rem,4vw,3rem);display:grid;gap:.5rem}
+.history-discovery{position:absolute;bottom:7rem;left:50%;translate:-50% 0;z-index:6;background:#243a32;border:1px solid #b9a575;color:#f0e4bd;padding:.6rem 1rem;pointer-events:none}
+.history-arrival{animation:history-arrive .5s ease-out}@keyframes history-arrive{from{opacity:.15}to{opacity:1}}@media(prefers-reduced-motion:reduce){.history-arrival{animation:none}}
+
+/* Keep projected street labels below the evidence dialog. */
+.history-arrival > .osh-world { isolation: isolate; }

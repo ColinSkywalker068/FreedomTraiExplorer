@@ -1,0 +1,55 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+# Node and generated frontend output
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+coverage/
+# Local configuration, logs, and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.local
+.tmp/
+tmp/
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Task 0 source libraries, inference caches and processed test output
+assets/raw/**
+assets/processed/**
+!assets/raw/**/
+!assets/raw/**/README.md
+!assets/raw/**/manifest.json
+!assets/processed/**/
+!assets/processed/**/README.md
+!assets/processed/**/manifest.json
+backend/.venv/
+.ollama/
+
+!assets/raw/**/provenance.json
+!assets/raw/**/inventory.json
+!assets/raw/**/gltf-metadata.json
+
+!assets/raw/**/rig-comparison.json
+!assets/raw/**/dependency-map.json
+!assets/raw/**/PENDING_DOWNLOAD.json
+
+# Local trial avatars are not part of the public runtime.
+frontend/public/experiences/old-state-house/models/gobkit-*.glb
+frontend/public/experiences/old-state-house/models/makehuman-*.glb

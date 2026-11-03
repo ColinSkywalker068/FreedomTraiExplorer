@@ -1,0 +1,769 @@
+{
+  "sources": [
+    {
+      "id": "S01",
+      "title": "A Short Narrative of the Horrid Massacre in Boston",
+      "author": "Boston town committee; printed by Edes and Gill",
+      "date": "1770",
+      "url": "https://www.masshist.org/database/337",
+      "type": "Contemporary pamphlet; archival description",
+      "context": "Boston town committee presentation",
+      "summary": "MHS describes a narrative followed by 96 depositions.",
+      "rights": "Original 1770 text is public domain; modern editorial text paraphrased, not reproduced.",
+      "status": "Indirectly verified through MHS History Source; original database timed out.",
+      "relationships": [
+        "https://www.historysource.org/history-source-sets/boston-massacre",
+        "S02",
+        "S04"
+      ],
+      "locator": "MHS History Source, A Short Narrative of the Horrid Massacre, 1770"
+    },
+    {
+      "id": "S02",
+      "title": "A Fair Account of the Late Unhappy Disturbance at Boston in New England",
+      "author": "Francis Maseres; printed for B. White, London",
+      "date": "1770",
+      "url": "https://www.masshist.org/database/386",
+      "type": "Contemporary pamphlet; archival description",
+      "context": "British military collection and London publication",
+      "summary": "MHS identifies 31 British-collected testimonies used in the London narrative.",
+      "rights": "Original 1770 text is public domain; modern editorial text paraphrased, not reproduced.",
+      "status": "Indirectly verified through MHS and American Battlefield Trust; original MHS failed; alternate PDF exceeds browser size limit.",
+      "relationships": [
+        "https://www.historysource.org/history-source-sets/boston-massacre",
+        "https://www.battlefields.org/learn/primary-sources/fair-account-late-unhappy-disturbance-boston-new-england",
+        "S01"
+      ],
+      "locator": "MHS History Source, A Fair Account section"
+    },
+    {
+      "id": "S03",
+      "title": "Boston Massacre trial testimony and outcomes",
+      "author": "Contemporary witnesses; modern excerpt compiler and National Park Service",
+      "date": "October–December 1770",
+      "url": "https://teachtnhistory.org/File/Boston_Massacre_Trial_Testimony.pdf",
+      "type": "Primary testimony in modern transcription; modern trial summary",
+      "context": "Witnesses heard in contested criminal proceedings",
+      "summary": "The accessible PDF reproduces testimony by Prince, Whitehouse, Palmes, Bliss and Wyatt. NPS supplies trial outcomes.",
+      "rights": "Original 1770 text is public domain; modern editorial text paraphrased, not reproduced.",
+      "status": "Directly verified excerpt; NPS outcomes verified; full Rotunda edition requires registration.",
+      "relationships": [
+        "https://www.nps.gov/articles/000/boston-massacre-trial.htm",
+        "https://rotunda.upress.virginia.edu/founders/default.xqy?keys=ADMS-print-05-03-02-0001-0004&mode=TOC",
+        "S04",
+        "S05"
+      ],
+      "locator": "PDF pp. 1–2, named witness headings; NPS The Trial of Captain Preston / The Trial of the Soldiers"
+    },
+    {
+      "id": "S04",
+      "title": "William Wyat deposition",
+      "author": "William Wyat",
+      "date": "7 March 1770",
+      "url": "https://www.dhr.history.vt.edu/modules/us/intro/evidence_detail_01.html",
+      "type": "Primary deposition in modern transcription",
+      "context": "Deposition included in Boston town committee account",
+      "summary": "Wyat followed bells he assumed signalled fire; he reported an officer ordering the soldiers to fire.",
+      "rights": "Original 1770 text is public domain; modern editorial text paraphrased, not reproduced.",
+      "status": "Directly verified by project researcher; initial repeated timeouts were resolved in a separate fetch.",
+      "relationships": [
+        "S01",
+        "S03"
+      ],
+      "locator": "Deposition paragraphs beginning Hearing a bell ring and The officer then swore; web text lines 42–49"
+    },
+    {
+      "id": "S05",
+      "title": "Investigating Multiple Perspectives on the Boston Massacre",
+      "author": "Massachusetts Historical Society",
+      "date": "Modern educational source set",
+      "url": "https://www.historysource.org/history-source-sets/boston-massacre",
+      "type": "Archival source set and contextual interpretation",
+      "context": "Modern mediation; not an additional independent eyewitness",
+      "summary": "Connects Jane Crothers with Jane Whitehouse and her trial statement; identifies competing pamphlets.",
+      "rights": "Modern MHS material paraphrased; linked primary originals retain separate rights.",
+      "status": "Directly verified contextual descriptions and excerpts.",
+      "relationships": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "locator": "Jane Crothers marriage section; pamphlet sections"
+    },
+    {
+      "id": "S06",
+      "title": "Andrew’s account of the Boston Massacre",
+      "author": "Andrew; Colonial Williamsburg edition",
+      "date": "1770 account; modern edition",
+      "url": "https://www.colonialwilliamsburg.org/discover/sources/black-americans-and-the-american-revolution/andrews-account-of-the-boston-massacre/",
+      "type": "Primary-source edition",
+      "context": "Potential expansion; no collectible claim used",
+      "summary": "Not inspected because access returned 403.",
+      "rights": "Rights not checked; no reproduction.",
+      "status": "Unavailable during verification; not used.",
+      "relationships": [],
+      "locator": "No passage verified"
+    },
+    {
+      "id": "S07",
+      "title": "Boston Gazette and Country Journal, March 12, 1770",
+      "author": "Edes and Gill",
+      "date": "12 March 1770",
+      "url": "https://guides.loc.gov/noteworthy-newspaper-issues/boston-gazette-and-country-journal",
+      "type": "Newspaper; Library of Congress archival description",
+      "context": "Boston newspaper mourning presentation",
+      "summary": "The Library of Congress identifies four coffins accompanying the massacre account.",
+      "rights": "Original 1770 text is public domain; modern editorial text paraphrased, not reproduced.",
+      "status": "Archival description directly verified; original issue scan not used.",
+      "relationships": [
+        "S08"
+      ],
+      "locator": "Library of Congress guide, March 12, 1770, opening paragraph"
+    },
+    {
+      "id": "S08",
+      "title": "Remembering the Boston Massacre",
+      "author": "Smithsonian National Museum of American History",
+      "date": "Modern interpretation",
+      "url": "https://americanhistory.si.edu/explore/stories/remembering-boston-massacre",
+      "type": "Museum interpretation",
+      "context": "Proposed later coffin comparison",
+      "summary": "Source returned server error and timeout; fifth-coffin claim is not shipped.",
+      "rights": "Modern rights not checked; no reproduction.",
+      "status": "Unavailable during verification; not used.",
+      "relationships": [
+        "S07"
+      ],
+      "locator": "No passage verified"
+    },
+    {
+      "id": "S09",
+      "title": "The Boston Massacre, or, The Bloody Massacre perpetrated in King Street",
+      "author": "Paul Revere, after Henry Pelham",
+      "date": "1770",
+      "url": "https://www.metmuseum.org/art/collection/search/365208",
+      "type": "Contemporary engraving and museum catalog",
+      "context": "Persuasive visual representation",
+      "summary": "The engraving labels the Custom House Butcher’s Hall; the Met records Pelham as the source designer.",
+      "rights": "Met designates image Public Domain; open access reproduction permitted.",
+      "status": "Directly verified Met catalog and public-domain designation; LOC alternative returned 403.",
+      "relationships": [
+        "S03",
+        "https://www.loc.gov/item/2008661777/"
+      ],
+      "locator": "Met object 10.125.103, description and Artwork Details"
+    },
+    {
+      "id": "S10",
+      "title": "Paul Revere’s plan of the scene of the Boston Massacre",
+      "author": "Attributed to Paul Revere",
+      "date": "[1770]",
+      "url": "https://www.argomaps.org/maps/commonwealth:vh53x374w/",
+      "type": "Contemporary plan; archival catalog",
+      "context": "Spatial representation, not a surveyed reconstruction",
+      "summary": "Boston Public Library plan cataloged as MS Ch.P.53.",
+      "rights": "No known copyright restrictions; no known restrictions on use, per ARGO/BPL.",
+      "status": "Directly verified ARGO record and linked image.",
+      "relationships": [
+        "S09"
+      ],
+      "locator": "ARGO Metadata and Notes; BPL MS Ch.P.53"
+    },
+    {
+      "id": "S11",
+      "title": "Boston Massacre primary-source directory",
+      "author": "Revolution 250",
+      "date": "Modern directory",
+      "url": "https://www.revolution250.org/250th-commemorations/boston-massacre/",
+      "type": "Modern research index",
+      "context": "Discovery aid; not independent contemporary testimony",
+      "summary": "Links trials, correspondence, diaries and images.",
+      "rights": "Modern site paraphrased only.",
+      "status": "Directly verified index; not used as independent witness evidence.",
+      "relationships": [
+        "S03"
+      ],
+      "locator": "Primary Sources, trial sections"
+    },
+    {
+      "id": "S12",
+      "title": "New Light on the Boston Massacre",
+      "author": "Randolph Greenfield Adams",
+      "date": "October 1937",
+      "url": "https://americanantiquarian.org/proceedings/44806960.pdf",
+      "type": "Later scholarship",
+      "context": "Modern research only",
+      "summary": "Examines British correspondence and the selective publication of accounts.",
+      "rights": "Later scholarly article linked; no substantial quotation reproduced.",
+      "status": "Bibliographic record and article opening directly verified.",
+      "relationships": [
+        "S01",
+        "S02",
+        "S13"
+      ],
+      "locator": "Proceedings of the American Antiquarian Society 47(2), pp. 259–354; opening pp. 259–260"
+    },
+    {
+      "id": "S13",
+      "title": "Newer Light on the Boston Massacre",
+      "author": "Hiller B. Zobel",
+      "date": "April 1968",
+      "url": "https://www.americanantiquarian.org/node/11751",
+      "type": "Later scholarship",
+      "context": "Modern research only",
+      "summary": "Compares Hutchinson’s differing accounts of trial strategy.",
+      "rights": "Later scholarly article linked and briefly paraphrased only.",
+      "status": "Bibliographic record and linked PDF inspected.",
+      "relationships": [
+        "S12",
+        "https://www.americanantiquarian.org/sites/default/files/proceedings/44497951.pdf"
+      ],
+      "locator": "Proceedings of the American Antiquarian Society 78(1), pp. 119–128"
+    },
+    {
+      "id": "S14",
+      "title": "Rival Truths, Political Accommodation, and the Boston “Massacre”",
+      "author": "Neil Longley York",
+      "date": "2009",
+      "url": "https://www.jstor.org/stable/40345980",
+      "type": "Later scholarship",
+      "context": "Modern research only",
+      "summary": "User-supplied bibliography; no article-level claims used.",
+      "rights": "Not reproduced; no paywall circumvention.",
+      "status": "JSTOR returned empty content; full text unverified.",
+      "relationships": [
+        "S12",
+        "S13"
+      ],
+      "locator": "No passage verified"
+    }
+  ],
+  "clues": [
+    {
+      "id": "C01",
+      "title": "Bells mistaken for fire",
+      "claim": "Wyat reported hearing a bell, assuming there was a fire, and following soldiers toward King Street.",
+      "question": "Q1",
+      "sourceId": "S04",
+      "url": "https://www.dhr.history.vt.edu/modules/us/intro/evidence_detail_01.html",
+      "locator": "Deposition, opening: Hearing a bell ring",
+      "type": "Firsthand recollection",
+      "speaker": "William Wyat",
+      "observationDate": "5 March 1770",
+      "publicationDate": "7 March 1770",
+      "uncertainty": "His reported initial assumption does not establish why the bells rang.",
+      "relatedIds": [
+        "C02"
+      ],
+      "interactions": [
+        "W01"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "An officer’s command",
+      "claim": "Wyat reported that an officer repeatedly ordered the soldiers to fire before the first shot.",
+      "question": "Q2",
+      "sourceId": "S04",
+      "url": "https://www.dhr.history.vt.edu/modules/us/intro/evidence_detail_01.html",
+      "locator": "Deposition, officer’s repeated commands",
+      "type": "Firsthand allegation",
+      "speaker": "William Wyat",
+      "observationDate": "5 March 1770",
+      "publicationDate": "7 March 1770",
+      "uncertainty": "A disputed report; identifying a voice and identifying its speaker are separate problems.",
+      "relatedIds": [
+        "C03",
+        "C04",
+        "C05"
+      ],
+      "interactions": [
+        "W01"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "Prince heard no order",
+      "claim": "Prince reported hearing no order to fire; he described Preston coming out from behind the soldiers.",
+      "question": "Q2",
+      "sourceId": "S03",
+      "url": "https://teachtnhistory.org/File/Boston_Massacre_Trial_Testimony.pdf",
+      "locator": "PDF p. 2, Newton Prince paragraph",
+      "type": "Firsthand testimony",
+      "speaker": "Newton Prince",
+      "observationDate": "5 March 1770",
+      "publicationDate": "October 1770 trial",
+      "uncertainty": "Failure to hear an order cannot prove that nobody gave one. NPS summarizes Preston as in front.",
+      "relatedIds": [
+        "C02",
+        "C04"
+      ],
+      "interactions": [
+        "W02"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "A different man",
+      "claim": "Jane Whitehouse, identified by MHS as Jane Crothers, said the man encouraging the soldiers to fire was not Captain Preston.",
+      "question": "Q2",
+      "sourceId": "S03",
+      "url": "https://teachtnhistory.org/File/Boston_Massacre_Trial_Testimony.pdf",
+      "locator": "PDF p. 2, Jane Whitehouse paragraph; MHS Jane Crothers section",
+      "type": "Firsthand testimony",
+      "speaker": "Jane Crothers / Whitehouse",
+      "observationDate": "5 March 1770",
+      "publicationDate": "October 1770 trial",
+      "uncertainty": "She excluded Preston but did not name the man; the scene does not supply an identity.",
+      "relatedIds": [
+        "C02",
+        "C03",
+        "C09"
+      ],
+      "interactions": [
+        "W03"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "Palmes and the first shot",
+      "claim": "Palmes said something resembling snow or ice struck a soldier immediately before the first shot; he then heard an unidentified voice say fire.",
+      "question": "Q1",
+      "sourceId": "S03",
+      "url": "https://teachtnhistory.org/File/Boston_Massacre_Trial_Testimony.pdf",
+      "locator": "PDF p. 2, Richard Palmes paragraph",
+      "type": "Firsthand testimony",
+      "speaker": "Richard Palmes",
+      "observationDate": "5 March 1770",
+      "publicationDate": "October 1770 trial",
+      "uncertainty": "He did not identify who spoke; his description is not proof of a coordinated order.",
+      "relatedIds": [
+        "C02",
+        "C06"
+      ],
+      "interactions": [
+        "H01"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "Bliss described blows",
+      "claim": "Theodore Bliss reported snowballs and a stick striking a soldier before the firing.",
+      "question": "Q1",
+      "sourceId": "S03",
+      "url": "https://teachtnhistory.org/File/Boston_Massacre_Trial_Testimony.pdf",
+      "locator": "PDF p. 1, Theodore Bliss paragraph",
+      "type": "Firsthand testimony",
+      "speaker": "Theodore Bliss",
+      "observationDate": "5 March 1770",
+      "publicationDate": "October 1770 trial",
+      "uncertainty": "This account describes some actions, not the conduct of every person in the crowd.",
+      "relatedIds": [
+        "C05",
+        "C12"
+      ],
+      "interactions": [
+        "H01"
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "Leaving toward the west",
+      "claim": "Prince said he was moving west of the soldiers when he heard the guns and saw the dead carried away.",
+      "question": "Q1",
+      "sourceId": "S03",
+      "url": "https://teachtnhistory.org/File/Boston_Massacre_Trial_Testimony.pdf",
+      "locator": "PDF p. 2, Newton Prince paragraph",
+      "type": "Firsthand testimony",
+      "speaker": "Newton Prince",
+      "observationDate": "5 March 1770",
+      "publicationDate": "October 1770 trial",
+      "uncertainty": "A moving observer’s view and hearing need not match another witness’s.",
+      "relatedIds": [
+        "C03",
+        "C14"
+      ],
+      "interactions": [
+        "W02"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "Four printed coffins",
+      "claim": "The March 12 Boston Gazette account was accompanied by four coffin images.",
+      "question": "Q3",
+      "sourceId": "S07",
+      "url": "https://guides.loc.gov/noteworthy-newspaper-issues/boston-gazette-and-country-journal",
+      "locator": "LOC guide, March 12, 1770 opening paragraph",
+      "type": "Editorial framing; archival description",
+      "speaker": "Edes and Gill; imagery attributed to Revere",
+      "observationDate": "12 March 1770",
+      "publicationDate": "12 March 1770",
+      "uncertainty": "Verified through the Library of Congress description, not a local original issue scan.",
+      "relatedIds": [
+        "C12"
+      ],
+      "interactions": [
+        "P01"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "Clothing and identification",
+      "claim": "Whitehouse described the unidentified man in dark clothes and said he did not look like an officer.",
+      "question": "Q2",
+      "sourceId": "S03",
+      "url": "https://teachtnhistory.org/File/Boston_Massacre_Trial_Testimony.pdf",
+      "locator": "PDF p. 2, Jane Whitehouse paragraph",
+      "type": "Firsthand testimony",
+      "speaker": "Jane Crothers / Whitehouse",
+      "observationDate": "5 March 1770",
+      "publicationDate": "October 1770 trial",
+      "uncertainty": "Appearance is her reported impression, not a secure identification.",
+      "relatedIds": [
+        "C02",
+        "C04"
+      ],
+      "interactions": [
+        "W03"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "A town committee’s selection",
+      "claim": "MHS identifies 96 depositions collected for the Boston town committee’s Short Narrative.",
+      "question": "Q3",
+      "sourceId": "S01",
+      "url": "https://www.historysource.org/history-source-sets/boston-massacre",
+      "locator": "A Short Narrative of the Horrid Massacre, 1770 section",
+      "type": "Publication history; archival description",
+      "speaker": "Boston town committee",
+      "observationDate": "March 1770",
+      "publicationDate": "1770",
+      "uncertainty": "The compilation and individual depositions are not independent corroborating witnesses.",
+      "relatedIds": [
+        "C11"
+      ],
+      "interactions": [
+        "P02"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "A competing London account",
+      "claim": "The Fair Account used testimonies gathered by British officers and sent to England; MHS identifies 31 testimonies in that collection.",
+      "question": "Q3",
+      "sourceId": "S02",
+      "url": "https://www.historysource.org/history-source-sets/boston-massacre",
+      "locator": "A Fair Account of the Late Unhappy Disturbance at Boston, 1770 section",
+      "type": "Publication history; archival description",
+      "speaker": "British officers; Francis Maseres",
+      "observationDate": "March 1770 collection",
+      "publicationDate": "1770",
+      "uncertainty": "Do not confuse this 31-item collection with the separate 26-deposition subset discussed in later scholarship. Boston arrival date is unverified.",
+      "relatedIds": [
+        "C10"
+      ],
+      "interactions": [
+        "P03"
+      ]
+    },
+    {
+      "id": "C12",
+      "title": "The image makes an argument",
+      "claim": "Revere’s engraving labels the Custom House Butcher’s Hall, a visual accusation rather than a neutral building label.",
+      "question": "Q3",
+      "sourceId": "S09",
+      "url": "https://www.metmuseum.org/art/collection/search/365208",
+      "locator": "Object description, Custom House label",
+      "type": "Editorial framing; visual artifact",
+      "speaker": "Paul Revere, after Henry Pelham",
+      "observationDate": "Depicts 5 March 1770",
+      "publicationDate": "1770",
+      "uncertainty": "An engraving is a composed representation, not a photograph or proof of the precise firing formation.",
+      "relatedIds": [
+        "C06",
+        "C08",
+        "C14"
+      ],
+      "interactions": [
+        "P04"
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "Verdicts did not settle every detail",
+      "claim": "Preston was acquitted in October; the soldiers’ trial ended with six acquittals and two manslaughter convictions.",
+      "question": "Q2",
+      "sourceId": "S03",
+      "url": "https://www.nps.gov/articles/000/boston-massacre-trial.htm",
+      "locator": "The Trial of Captain Preston; The Trial of the Soldiers",
+      "type": "Legal outcome; modern archival summary",
+      "speaker": "Trial juries; NPS summary",
+      "observationDate": "October–December 1770",
+      "publicationDate": "1770 proceedings",
+      "uncertainty": "An acquittal is a legal result, not proof that every disputed observation has been resolved.",
+      "relatedIds": [
+        "C02",
+        "C03",
+        "C04"
+      ],
+      "interactions": [
+        "H02"
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "A plan, not exact coordinates",
+      "claim": "A plan attributed to Revere represents the massacre scene; the BPL catalogs the manuscript as dating to 1770.",
+      "question": "Q1",
+      "sourceId": "S10",
+      "url": "https://www.argomaps.org/maps/commonwealth:vh53x374w/",
+      "locator": "Metadata: Date [1770], Artist; Notes: MS Ch.P.53",
+      "type": "Spatial artifact; archival attribution",
+      "speaker": "Attributed to Paul Revere",
+      "observationDate": "Depicts 5 March 1770",
+      "publicationDate": "[1770]",
+      "uncertainty": "The model uses approximate geography. The historical plan does not certify every modern 3D coordinate.",
+      "relatedIds": [
+        "C07",
+        "C12"
+      ],
+      "interactions": [
+        "P05",
+        "H02"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "P01",
+      "title": "Boston Gazette: mourning in print",
+      "date": "12 March 1770",
+      "sourceId": "S07",
+      "description": "Archival reading card based on the Library of Congress issue description.",
+      "representation": "Modern reading card with source-linked paraphrases; not an original scan.",
+      "details": [
+        {
+          "id": "P01-C08",
+          "title": "Four printed coffins",
+          "text": "The March 12 Boston Gazette account was accompanied by four coffin images.",
+          "clueIds": [
+            "C08"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "title": "A Short Narrative",
+      "date": "1770",
+      "sourceId": "S01",
+      "description": "Boston town committee pamphlet. This card summarizes archival metadata; it does not reproduce its full text.",
+      "representation": "Modern reading card with source-linked paraphrases; not an original scan.",
+      "details": [
+        {
+          "id": "P02-C10",
+          "title": "A town committee’s selection",
+          "text": "MHS identifies 96 depositions collected for the Boston town committee’s Short Narrative.",
+          "clueIds": [
+            "C10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "title": "A Fair Account",
+      "date": "1770",
+      "sourceId": "S02",
+      "description": "London pamphlet, presented as an archival encounter. Its arrival in Boston by December has not been established.",
+      "representation": "Modern reading card with source-linked paraphrases; not an original scan.",
+      "details": [
+        {
+          "id": "P03-C11",
+          "title": "A competing London account",
+          "text": "The Fair Account used testimonies gathered by British officers and sent to England; MHS identifies 31 testimonies in that collection.",
+          "clueIds": [
+            "C11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "title": "The Bloody Massacre",
+      "date": "1770",
+      "sourceId": "S09",
+      "description": "Paul Revere after Henry Pelham; Met object 10.125.103.",
+      "representation": "Historical image reproduction with modern interpretive reading card; annotations are modern.",
+      "details": [
+        {
+          "id": "P04-C12",
+          "title": "The image makes an argument",
+          "text": "Revere’s engraving labels the Custom House Butcher’s Hall, a visual accusation rather than a neutral building label.",
+          "clueIds": [
+            "C12"
+          ]
+        }
+      ],
+      "image": "/history1770/documents/revere.jpg"
+    },
+    {
+      "id": "P05",
+      "title": "Plan of the scene",
+      "date": "[1770]",
+      "sourceId": "S10",
+      "description": "BPL MS Ch.P.53, attributed to Revere. Street relationships inform the scene; measurements do not.",
+      "representation": "Historical image reproduction with modern interpretive reading card; annotations are modern.",
+      "details": [
+        {
+          "id": "P05-C14",
+          "title": "A plan, not exact coordinates",
+          "text": "A plan attributed to Revere represents the massacre scene; the BPL catalogs the manuscript as dating to 1770.",
+          "clueIds": [
+            "C14"
+          ]
+        }
+      ],
+      "image": "/history1770/documents/plan.jpg"
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "W01",
+      "name": "William Wyat",
+      "role": "Witness",
+      "description": "A speaker represented through his March deposition.",
+      "knowledge": "Only C01 and C02; do not add biography or assert a proven commander identity.",
+      "clueIds": [
+        "C01",
+        "C02"
+      ],
+      "sourceIds": [
+        "S04"
+      ],
+      "greeting": "I can tell you what I reported hearing that night.",
+      "position": [
+        17,
+        0,
+        -7
+      ]
+    },
+    {
+      "id": "W02",
+      "name": "Newton Prince",
+      "role": "Witness",
+      "description": "A witness represented through his recorded trial account.",
+      "knowledge": "Only C03 and C07; distinguish not hearing from proof of silence.",
+      "clueIds": [
+        "C03",
+        "C07"
+      ],
+      "sourceIds": [
+        "S03"
+      ],
+      "greeting": "My account begins with what I could see and hear near the soldiers.",
+      "position": [
+        27,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "W03",
+      "name": "Jane Crothers",
+      "role": "Witness",
+      "description": "Recorded at trial as Jane Whitehouse; identification connected by MHS.",
+      "knowledge": "Only C04 and C09. Do not invent the unknown man’s identity. Marriage is not grounds to dismiss her testimony.",
+      "clueIds": [
+        "C04",
+        "C09"
+      ],
+      "sourceIds": [
+        "S03",
+        "S05"
+      ],
+      "greeting": "I described a man, but I could not give his name.",
+      "position": [
+        8,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "printer",
+      "name": "Print-shop apprentice",
+      "role": "Fictional composite",
+      "description": "A fictional facilitator for verified documents, not a historical eyewitness.",
+      "knowledge": "Discuss the five verified document cards only. Archival cards are modern interventions; do not claim personal delivery or observation.",
+      "clueIds": [
+        "C08",
+        "C10",
+        "C11",
+        "C12",
+        "C14"
+      ],
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07",
+        "S09",
+        "S10"
+      ],
+      "greeting": "The same event can look different on another printed page. Examine these accounts.",
+      "position": [
+        35,
+        0,
+        -6
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "X01",
+      "title": "Hearing a command — or hearing none",
+      "clueIds": [
+        "C02",
+        "C03"
+      ],
+      "text": "Wyat reported a command; Prince reported hearing none. Position, timing and identification limit the comparison. Neither entry proves dishonesty."
+    },
+    {
+      "id": "X02",
+      "title": "Who was the speaker?",
+      "clueIds": [
+        "C02",
+        "C04"
+      ],
+      "text": "Wyat described an officer; Crothers/Whitehouse excluded Preston. Do the accounts identify the same voice or moment?"
+    },
+    {
+      "id": "X03",
+      "title": "Two published collections",
+      "clueIds": [
+        "C10",
+        "C11"
+      ],
+      "text": "The Boston committee and British officers assembled different collections. Their institutional framing matters; repeating a deposition does not create a new witness."
+    },
+    {
+      "id": "X04",
+      "title": "An image and a report of violence",
+      "clueIds": [
+        "C06",
+        "C12"
+      ],
+      "text": "Compare Bliss’s description of objects striking soldiers with the engraving’s accusatory composition. The print communicates an argument rather than recording every action."
+    },
+    {
+      "id": "X05",
+      "title": "Position and observation",
+      "clueIds": [
+        "C07",
+        "C14"
+      ],
+      "text": "A historical plan can help ask where a witness stood. It cannot recover every moving observer’s exact view."
+    }
+  ]
+}
